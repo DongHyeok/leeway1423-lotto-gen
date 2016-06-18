@@ -1,1 +1,19 @@
-<!DOCTYPE html> <html> <head>  <meta charset="UTF-8">  <title>로또 번호 생성기</title>  <script src="./js/app.js"></script>  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> </head> <body>  <input id="inputGenerated">  <button id="btnGenerate">번호 생성</button>  <script>    $(function() {      $('#btnGenerate').click(function() {        $('#inputGenerated').val(generate().join(', '));      })    });  </script> </body> </html> 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8">  
+<title>로또 번호 생성기</title>  
+<script src="./js/app.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+</head> 
+<body> 
+<input id="inputGenerated">  <but`ton id="btnGenerate">번호 생성</button> 
+<script>    
+$(function() {    
+$('#btnGenerate').click(function() {   
+$('#inputGenerated').val(generate().join(', '));   
+}) 
+}); 
+</script> 
+</body> 
+</html> 
